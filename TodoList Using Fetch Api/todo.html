@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Todo List</title> 
+  </head>
+  <style>
+    .container{
+        align-content: center;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    .todos,p{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    input{
+        margin-right: 50px;
+        border: 1px solid rgb(0, 98, 255);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    button {
+      background: #345dd9;
+      background-image: -webkit-linear-gradient(top, #345dd9, #2bb8a0);
+      background-image: -moz-linear-gradient(top, #345dd9, #2bb8a0);
+      background-image: -ms-linear-gradient(top, #345dd9, #2bb8a0);
+      background-image: -o-linear-gradient(top, #345dd9, #2bb8a0);
+      background-image: linear-gradient(to bottom, #345dd9, #2bb8a0);
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    button:hover {
+      background: #3cfafa;
+      background-image: -webkit-linear-gradient(top, #3cfafa, #34d98f);
+      background-image: -moz-linear-gradient(top, #3cfafa, #34d98f);
+      background-image: -ms-linear-gradient(top, #3cfafa, #34d98f);
+      background-image: -o-linear-gradient(top, #3cfafa, #34d98f);
+      background-image: linear-gradient(to bottom, #3cfafa, #34d98f);
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <button type="submit">Show pending/Completed</button>
+      <div class="todos"></div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

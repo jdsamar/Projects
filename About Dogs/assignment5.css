@@ -1,0 +1,148 @@
+/* Our CSS file. */
+
+
+.container, .content {
+width: 100%;
+height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway',sans-serif;
+}
+/*header*/
+
+header{
+    background: #1C8D73;
+    color: azure;
+    height: 50px;
+    padding: 0 25px;
+}
+
+
+header h1{
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    padding: 17px 10px;
+}
+
+nav li:hover{
+    background: #50DBB4;
+    color: white;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+header h1{
+    float: left;
+    text-indent: -9999px;
+    background: url('./images/dog-icon.svg') no-repeat;
+    height: 35px;
+    width: 35px;
+    margin-top: 8px;
+}
+
+/*Hero or Section 1*/
+
+#hero{
+    background: url("images/park.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+
+}
+
+#hero img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #02B290;
+    margin-bottom: 25px;
+}
+
+#hero h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    background: white;
+    border: 5px solid #02B290;
+    color: #1C8D73;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+}
+
+/*Section 2*/
+
+.three-colom{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.three-colom img{
+    border-radius: 50%;
+    border: 3px solid #02B290;
+    height: 200px;
+    width: 200px;
+    margin: 25px 0;
+}
+
+.three-colom h3{
+    font-weight: bold;
+}
+
+.three-colom p{
+    margin-bottom: 40px;
+}
+
+
+/* Footer */
+
+footer{
+    background: #02B290;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+footer ul{
+    margin: 40px 0;
+}
+
+footer li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    color: #3F8DA7;
+}
